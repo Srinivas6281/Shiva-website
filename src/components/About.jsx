@@ -8,8 +8,8 @@ const About = forwardRef((props,ref) => {
         <div className="about-me">
             <h1>About Me</h1>
             <div className="con1">
-               <p> <img src={arrow} alt="" />  Hi , I'm Shiva, a dedicated home appliance repair specialist with over 5 yeats of experience at Samsung.
-               I specialize in reparing and servicing a wide range of home appliances including <span>air conditioner, refrigerators, washing machines, and televisions</span>
+               <p> <img src={arrow} alt="" />  Hi , I'm Shiva, a dedicated home appliance repair specialist with over 5 years of experience at Samsung.
+               I specialize in repairing and servicing a wide range of home appliances including <span>air conditioner, refrigerators, washing machines, and televisions</span>
                </p><br />
                <p><img src={arrow} alt="" /> 
                  Over the years, I've built a reputation for <span>reliable service, honest work, </span>and <span>fast problem-solving.</span>
