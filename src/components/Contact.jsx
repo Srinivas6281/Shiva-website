@@ -13,7 +13,7 @@ const Contact = forwardRef((props,ref) => {
             <div className="num">
                <div className="call">
                 <img src={call} />
-               <a href="tel:+9573993725">Call me:+91 9573993725</a>
+               <a href="tel:+919573993725">Call me:+91 9573993725</a>
                </div>
                <div className="whatsapp">
                 <img src={what}   />
