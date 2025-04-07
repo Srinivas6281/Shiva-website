@@ -12,7 +12,7 @@ const Home = forwardRef((props, ref) => {
                 <h2>"Expert Home Appliance Repair Services"</h2>
                 <h3>"AC | Fridge | Washing Machine | TV Repairs"</h3>
                <div className="btn">
-               <button> <a href="tel:+9573993725">Call me</a></button>
+               <button> <a href="tel:+919573993725">Call me</a></button>
                </div>
             </div>
         </div>
