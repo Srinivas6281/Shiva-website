@@ -1,0 +1,29 @@
+.service{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+.cat{
+    width: 95%;
+    background: #0fd644;
+    padding: 0 min(30px,4vw);
+}
+.cat h1{
+    padding:min(10px,2vh) 0; font-size: clamp(0.9rem,7vw,1.7rem);
+   
+}
+.cat img{
+    width: min(100px,18vw);
+    aspect-ratio: 1/1;
+}
+.cat1,.cat2,.cat3,.cat4{
+    width: 100%;
+    display: flex;
+    gap:min(25px,4vw); 
+    margin:min(25px,5vh) 0;
+   
+}
+.cat p{
+    font-size: clamp(0.8rem,2vw,1rem);
+}

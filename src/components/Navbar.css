@@ -1,0 +1,99 @@
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:min(40px,5vh);
+    position: relative;
+    z-index: 1;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mainbar{
+    list-style: none;
+    width: 95%;
+    height: min(50px,8vh);
+    background: rgb(1, 34, 82);
+    position: relative;
+    top:min(20px,2vh);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0 min(20px,2.5vw);
+}
+.mainbar li>h1,li>span{
+    font-size: clamp(0.9rem,2.5vw,1.3rem);
+    color: #fff;
+}
+.mainbar span{
+    color: #e8e2e2;
+}
+.mainbar li,a{
+    font-family: "Montserrat", sans-serif;
+}
+.mainbar li:first-child{
+    margin-right: auto;
+}
+.mainbar a{
+    text-decoration: none;
+    padding:0 min(20px,1.3vw);
+    color: #f1efef;
+    transition: color .3s linear,font-weight .3s linear;
+    font-size: clamp(0.5rem,2.1vw,1rem);
+}
+.mainbar a:hover{
+    color: #fff;
+    font-weight: 700;
+}
+li img{
+    cursor: pointer;
+    display: none;
+}
+.sidebar{
+    position: fixed;
+    right: 0;
+    z-index: 7;
+    height: 100vh;
+    background: #000;
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: rgb(1, 34, 82); 
+}
+
+.sidebar li{
+    padding:10px 20px;
+    width: 100%;
+}
+
+.sidebar a{
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar li:hover{
+   background: #636c79;
+}
+@media (max-width:650px){
+    .menubar{
+        width: 95%;
+        padding: 0 5px;
+        height: 30px;
+    }
+    .menu{
+        display: none;
+    }
+    li img{
+        display: block;
+    }
+}
+@media (max-width:350px){
+    .sidebar{
+        width: 100vw;
+        z-index: 1000;
+    }
+}
