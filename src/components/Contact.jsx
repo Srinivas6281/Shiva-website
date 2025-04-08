@@ -29,8 +29,8 @@ const Contact = forwardRef((props,ref) => {
             <div className="form">
             <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="959a4c2f-02f7-4305-a36b-7816f00032f9"></input>
-               <input type="text" placeholder='Enter your name' required/>
-               <input type="text" placeholder='Enter your number' required/>
+               <input type="text" name='name'  placeholder='Enter your name' required/>
+               <input type="text" name='number' placeholder='Enter your number' required/>
                <label htmlFor="problem">Problem Scenario</label>
                <textarea name="Problem" id="problem" rows='6' cols='40'></textarea>
              <div className="button">
