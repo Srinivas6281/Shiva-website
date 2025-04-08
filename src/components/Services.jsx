@@ -10,9 +10,9 @@ const Services = forwardRef((props,ref) => {
     <div className='service' ref={ref} data-aos={props['data-aos']}>
     <div className="cat">
         <h1>Services</h1>
-        <div className="cat1">
+        <div className="cat1" data-aos={props['data-aos']}>
         <img src={ac} alt="" />
-          <div className="data">
+          <div className="data" >
           <h1>AC Repair</h1>
           <p>We provide expert air conditioner repair and servicing to ensure your home stays cool and comfortable.
             Whether it's low cooling, unusual noise, gas leakage, or sensor issues we diagnose and fix all types of AC problems quickly
@@ -20,7 +20,7 @@ const Services = forwardRef((props,ref) => {
           </p>
           </div>
         </div>
-        <div className="cat2">
+        <div className="cat2 " data-aos={props['data-aos']}>
         <img src={fridge} alt="" />
         <div className="data">
             <h1>Refrigerator Repair</h1>
@@ -29,14 +29,14 @@ const Services = forwardRef((props,ref) => {
             </p>
         </div>
         </div>
-        <div className="cat3">
+        <div className="cat3" data-aos={props['data-aos']}>
         <img src={wash} alt="" />
         <div className="data">
             <h1>Washing Machine Repair</h1>
             <p>We handle all types of washing machines-- front-load, top-load, and semi-automatic. Common issues like water leakage, spinning problems, and drainage failures are fixed with precision to get your laundry back on track.</p>
         </div>
         </div>
-        <div className="cat4">
+        <div className="cat4" data-aos={props['data-aos']}>
         <img src={tv} alt="" />
         <div className="data">
             <h1>TV Repair</h1>
