@@ -9,7 +9,7 @@ const Services = forwardRef((props,ref) => {
   return (
     <div className='service' ref={ref} data-aos={props['data-aos']}>
     <div className="cat">
-        <h1>Services</h1>
+        <h1 data-aos={props['data-aos']}>Services</h1>
         <div className="cat1" data-aos={props['data-aos']}>
         <img src={ac} alt="" />
           <div className="data" >
