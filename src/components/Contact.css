@@ -88,6 +88,8 @@ button{
     background: #f5e108;
     font-family: "Montserrat", sans-serif;
     cursor: pointer;
+    outline:transparent;
+    border:transpaarent;
 }
 .div{
     padding:min(10px,5vh) 0;
