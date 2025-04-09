@@ -11,10 +11,7 @@ import Contact from './Contact';
 
 const Navbar = () => {
   useEffect(()=>{
-    Aos.init({
-      easing: 'ease-in-out', // Easing option
-      once: true, // Animation happens only once
-    });
+    Aos.init();
   
   },[])
   const [isMenuVisible, setMenuVisible] = useState(false);
