@@ -12,7 +12,6 @@ import Contact from './Contact';
 const Navbar = () => {
   useEffect(()=>{
     Aos.init({
-      duration: 1000, // Animation duration
       easing: 'ease-in-out', // Easing option
       once: true, // Animation happens only once
     });
