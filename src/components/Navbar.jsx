@@ -12,6 +12,7 @@ import Contact from './Contact';
 const Navbar = () => {
   useEffect(()=>{
     Aos.init({
+      duration:1000;,
       once:true;
     });
   
