@@ -11,7 +11,9 @@ import Contact from './Contact';
 
 const Navbar = () => {
   useEffect(()=>{
-    Aos.init();
+    Aos.init({
+      once:true;
+    });
   
   },[])
   const [isMenuVisible, setMenuVisible] = useState(false);
