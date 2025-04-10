@@ -7,26 +7,26 @@ import location from '../assets/locat.svg'
 const Contact = forwardRef((props,ref) => {
   return (
     <div className='contact' ref={ref}  data-aos={props['data-aos']}>
-        <div className="footer">
+        <div className="footer" >
         <div className="contact-me">
-            <h1>Contact me</h1>
+            <h1 data-aos={props['data-aos']}Contact me</h1>
             <div className="num">
-               <div className="call">
+               <div className="call" data-aos={props['data-aos']}>
                 <img src={call} />
                <a href="tel:+919573993725">Call me:+91 9573993725</a>
                </div>
-               <div className="whatsapp">
+               <div className="whatsapp" data-aos={props['data-aos']}>
                 <img src={what}   />
                 <a href="https://wa.me/9573993725" target='_blank'>Whatsapp</a>
                </div>
-               <div className="address">
+               <div className="address" data-aos={props['data-aos']}>
                 <img src={location} alt="" />
                 <p>
                     Voppicherla village, Karempudi Md, Palnadu Dt 522614
                 </p>
                </div>
             </div>
-            <div className="form">
+            <div className="form" data-aos={props['data-aos']}>
             <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="959a4c2f-02f7-4305-a36b-7816f00032f9"></input>
                <input type="text" name='name'  placeholder='Enter your name' required/>
