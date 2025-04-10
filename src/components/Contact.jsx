@@ -9,7 +9,7 @@ const Contact = forwardRef((props,ref) => {
     <div className='contact' ref={ref}  data-aos={props['data-aos']}>
         <div className="footer" >
         <div className="contact-me">
-            <h1 data-aos={props['data-aos']}Contact me</h1>
+            <h1 data-aos={props['data-aos']}>Contact me</h1>
             <div className="num">
                <div className="call" data-aos={props['data-aos']}>
                 <img src={call} />
