@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(()=>{
     Aos.init({
       duration:500,
-      easing:'linear',
+      easing:'ease-in-out',
       once:true,
     });
   
